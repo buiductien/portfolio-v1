@@ -78,10 +78,9 @@ const projects = [
   },
 ];
 
-const work = () => {
+const Work = () => {
   const [project, setProject] = useState(projects[0]);
-
-  const handleSlideChange = (swiper: any) => {
+  const handleSlideChange = (swiper: { activeIndex: number }) => {
     // get current slide index
     const currentIndex = swiper.activeIndex;
     // set project
@@ -224,4 +223,4 @@ const work = () => {
   );
 };
 
-export default work;
+export default Work;

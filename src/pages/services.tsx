@@ -1,10 +1,8 @@
 "use client";
 
-import { BsArrowDownRight } from "react-icons/bs";
-import React from "react";
-import { HeartOff } from "lucide-react";
 import { motion } from "framer-motion";
 import Link from "next/link";
+import { BsArrowDownRight } from "react-icons/bs";
 const servicesList = [
   {
     num: "01",
