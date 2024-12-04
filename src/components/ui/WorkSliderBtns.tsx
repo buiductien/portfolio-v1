@@ -1,7 +1,6 @@
 "use client";
-import { Swiper, useSwiper } from "swiper/react";
 import { PiCaretLeftBold, PiCaretRightBold } from "react-icons/pi";
-import { icons } from "lucide-react";
+import { useSwiper } from "swiper/react";
 interface WorkSliderProps {
   containerStyle: string;
   btnStyle: string;

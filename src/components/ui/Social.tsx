@@ -1,6 +1,6 @@
 import Link from "next/link";
-import React, { CSSProperties } from "react";
-import { FaGithub, FaLinkedinIn, FaYoutube, FaTwitter } from "react-icons/fa";
+import React from "react";
+import { FaGithub, FaLinkedinIn, FaTwitter, FaYoutube } from "react-icons/fa";
 
 interface SocialProps {
   containerStyles: string;
